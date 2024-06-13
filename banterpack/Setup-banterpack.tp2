@@ -40,7 +40,7 @@ END //banterpackreinstall.mrk
 
 LOAD_TRA ~banterpack/english/setup.tra~
 LOAD_TRA ~banterpack/%LANGUAGE%/setup.tra~
-
+LOAD_TRA ~banterpack/%LANGUAGE%/setup-%WEIDU_OS%.tra~
 
 ACTION_IF GAME_IS ~bg2ee eet~ THEN BEGIN
   LOAD_TRA ~banterpack/english/setup-ee.tra~
